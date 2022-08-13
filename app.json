@@ -27,6 +27,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "plugins": [
+        [
+          "expo-image-picker",
+          {
+            "cameraPermission": "The app needs access to your camer in order to take hotos of your favorite places"
+          }
+        ]
+      ]
     }
   }
 }
